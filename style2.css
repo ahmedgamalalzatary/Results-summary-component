@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.container{
+    margin:50px auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    grid-template-columns: repeat(2,1fr);
+}
+.result{
+    background: linear-gradient(to bottom, rgb(103,67,255), rgb(50,43,231));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    height: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.head{
+    padding: 30px;
+    font-size:20px ;
+    margin: 0 0 20px 0;
+}
+
+.degree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 20px 0;
+    background: linear-gradient(to bottom , #4b22cc,#482edf,#4633ed);
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+}
+.degree span{
+    font-size: 36px;
+    font-size: 900;
+    margin: 0 0 20px 0;
+}
+
+.great{
+    padding: 20px;
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+    
+}
+
+.para{
+    padding:20px  30px;
+    text-align: center;
+    
+    font-size: 12px;
+}
+
+
+.summary{
+    background-color: white;
+    border-top: transparent;
+    border-left: transparent;
+    border-radius: 5px;
+    height: 100%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.first{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px auto;
+    padding: 0 0  0 10px;
+}
+.specs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 20px auto;
+    
+}
+.reaction , .verbal , .visual ,.memory{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+}
+.reaction{
+    background-color:#fff6f5 ;
+    border-radius: 10px;
+}
+.verbal{
+    background-color: #f2fafa;
+    border-radius: 10px;
+}
+.visual{
+    background-color: #f3f3fd;
+    border-radius: 10px;
+}
+.memory{
+    background-color: #fffbf2;
+    border-radius: 10px;
+}
+
+.num{
+    padding: 5px 20px  0 5px;
+    left: 50px;
+    
+}
+.num-2{
+    padding: 5px 20px;
+    margin:  auto;
+    
+    font-size:16px ;
+    font-weight: 500;
+    margin:  0  0 0 25px ;
+}
+.num-2 span{
+    color: black;
+    opacity: .6;
+    font-weight: 200;
+    
+}
+
+.reaction .num {
+    color: #f5bcba;
+}
+.memory .num{
+color: #f9bf61;
+}
+.verbal .num{
+color: #79d6be;
+}
+.visual .num{
+color:#4349af;
+}
+
+
+
+
+
+button{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    border-radius: 20px;
+    border: transparent;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(to bottom, rgb(103,67,255), rgb(50,43,231));
+    
+}
